@@ -16,5 +16,5 @@ total = 0
 for i in bill:
   total += i
 
-my_share = total / 4
+my_share = round(total / 4, 2) #2 refers to two decimal digits
 print(my_share)
